@@ -6,13 +6,11 @@ $font__default:'Audiowide',Arial;
 
 $color__crew:(
   angus:#036D19,
-  ralathor:#3B7080,
+  ralathor:#3b5980,
   hootsman:#932F6D,
   proletius:#8d5a12,
   zargothrax:#491111,
  );
-
-
  @each $color__crew,$bg-color in $color__crew{
   .pj__#{$color__crew}{
     background-color: $bg-color;
@@ -24,12 +22,19 @@ $color__crew:(
   margin: 0;
 }
 
-.index__bg{
-  background-image:url("./src/img/background__index.jpg");
+.bg{
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size:cover;
+  &__index{
+    background-image:url("./src/img/background__index.jpg");
+  }
+  &__music{
+    background-image:url("./src/img/background__music.jpg");
+    background-attachment: fixed;
+  }
 }
+
 
 .nav-link{
   text-decoration: none;

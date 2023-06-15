@@ -3,7 +3,7 @@
 }
 
 .pj__ralathor {
-  background-color: #3B7080;
+  background-color: #3b5980;
 }
 
 .pj__hootsman {
@@ -23,11 +23,17 @@
   margin: 0;
 }
 
-.index__bg {
-  background-image: url("./src/img/background__index.jpg");
+.bg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.bg__index {
+  background-image: url("./src/img/background__index.jpg");
+}
+.bg__music {
+  background-image: url("./src/img/background__music.jpg");
+  background-attachment: fixed;
 }
 
 .nav-link {
