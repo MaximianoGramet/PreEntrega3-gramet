@@ -45,6 +45,11 @@ h3{
     background-image:url("./src/img/background__lore.jpg");
     background-attachment: fixed;
   }
+  &__tour{
+    background-image:url("./src/img/background__tour.jpg");
+    background-size:cover;
+    background-position: right;
+  }
 }
 
 
@@ -94,6 +99,11 @@ h3{
 .fondo-negro{
   background-color:$negro-fondo;
   margin: 20px;
+}
+
+.tourdate{
+  width: 759px;
+  height: 1490px;
 }
 
 @media screen and (max-width:375px) {

@@ -47,6 +47,11 @@ h3 {
   background-image: url("./src/img/background__lore.jpg");
   background-attachment: fixed;
 }
+.bg__tour {
+  background-image: url("./src/img/background__tour.jpg");
+  background-size: cover;
+  background-position: right;
+}
 
 .nav-link {
   text-decoration: none;
@@ -95,6 +100,11 @@ h3 {
 .fondo-negro {
   background-color: rgba(0, 0, 0, 0.5019607843);
   margin: 20px;
+}
+
+.tourdate {
+  width: 759px;
+  height: 1490px;
 }
 
 @media screen and (max-width: 375px) {
