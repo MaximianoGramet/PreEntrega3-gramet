@@ -1,0 +1,72 @@
+$font__maincolor:#f0f8ff;
+$font__descriptioncolor:darkgrey;
+$negro:#000000;
+$colorofglory:#095b6d;
+$font__default:'Audiowide',Arial;
+
+$color__crew:(
+  angus:#036D19,
+  ralathor:#3B7080,
+  hootsman:#932F6D,
+  proletius:#8d5a12,
+  zargothrax:#491111,
+ );
+
+
+ @each $color__crew,$bg-color in $color__crew{
+  .pj__#{$color__crew}{
+    background-color: $bg-color;
+  }
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.index__bg{
+  background-image:url("./src/img/background__index.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: $font__maincolor;
+  &:hover{
+    background-color: $font__maincolor;
+    color: $negro;
+  }
+}
+.color_gris{
+  background-color: $colorofglory;
+}
+
+.letras_blancas{
+  font-family: $font__default;
+  color:$font__maincolor
+}
+
+.descripciones{
+  font-family: 'Bebas Neue',Arial;
+  font-size:x-large;
+  place-items: center;
+  color: darkgrey;
+}
+
+.redes_icono{
+  width: 75px;
+  height: 75px;
+  margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+

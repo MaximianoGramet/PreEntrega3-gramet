@@ -1,0 +1,62 @@
+.pj__angus {
+  background-color: #036D19;
+}
+
+.pj__ralathor {
+  background-color: #3B7080;
+}
+
+.pj__hootsman {
+  background-color: #932F6D;
+}
+
+.pj__proletius {
+  background-color: #8d5a12;
+}
+
+.pj__zargothrax {
+  background-color: #491111;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.index__bg {
+  background-image: url("./src/img/background__index.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f0f8ff;
+}
+.nav-link:hover {
+  background-color: #f0f8ff;
+  color: #000000;
+}
+
+.color_gris {
+  background-color: #095b6d;
+}
+
+.letras_blancas {
+  font-family: "Audiowide", Arial;
+  color: #f0f8ff;
+}
+
+.descripciones {
+  font-family: "Bebas Neue", Arial;
+  font-size: x-large;
+  place-items: center;
+  color: darkgrey;
+}
+
+.redes_icono {
+  width: 75px;
+  height: 75px;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
