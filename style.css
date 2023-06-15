@@ -23,6 +23,10 @@
   margin: 0;
 }
 
+h3 {
+  padding: 20px;
+}
+
 .bg {
   background-repeat: no-repeat;
   background-position: center;
@@ -37,6 +41,10 @@
 }
 .bg__banda {
   background-image: url("./src/img/background__banda.png");
+  background-attachment: fixed;
+}
+.bg__lore {
+  background-image: url("./src/img/background__lore.jpg");
   background-attachment: fixed;
 }
 
@@ -56,6 +64,14 @@
 .letras_blancas {
   font-family: "Audiowide", Arial;
   color: #f0f8ff;
+}
+
+h3 {
+  font-family: "Audiowide", Arial;
+}
+
+.letras_blanca {
+  color: #acf6f8;
 }
 
 .descripciones {
@@ -79,4 +95,11 @@
 .fondo-negro {
   background-color: rgba(0, 0, 0, 0.5019607843);
   margin: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .img__size {
+    width: 75%;
+    height: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

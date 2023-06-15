@@ -23,7 +23,9 @@ $color__crew:(
   padding: 0;
   margin: 0;
 }
-
+h3{
+  padding: 20px;
+}
 .bg{
   background-repeat: no-repeat;
   background-position: center;
@@ -37,6 +39,10 @@ $color__crew:(
   }
   &__banda{
     background-image:url("./src/img/background__banda.png");
+    background-attachment: fixed;
+  }
+  &__lore{
+    background-image:url("./src/img/background__lore.jpg");
     background-attachment: fixed;
   }
 }
@@ -57,6 +63,14 @@ $color__crew:(
 .letras_blancas{
   font-family: $font__default;
   color:$font__maincolor
+}
+
+h3{
+  font-family: $font__default;
+}
+.letras_blanca{
+
+  color:#acf6f8
 }
 
 .descripciones{
@@ -82,6 +96,12 @@ $color__crew:(
   margin: 20px;
 }
 
+@media screen and (max-width:375px) {
+  .img__size{
+    width: 75%;
+    height: auto;
+  };
+}
 
 
 
