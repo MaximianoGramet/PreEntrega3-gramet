@@ -1,8 +1,10 @@
 $font__maincolor:#f0f8ff;
 $font__descriptioncolor:darkgrey;
 $negro:#000000;
+$negro-fondo:#00000080;
 $colorofglory:#095b6d;
 $font__default:'Audiowide',Arial;
+$image_size:320px;
 
 $color__crew:(
   angus:#036D19,
@@ -31,6 +33,10 @@ $color__crew:(
   }
   &__music{
     background-image:url("./src/img/background__music.jpg");
+    background-attachment: fixed;
+  }
+  &__banda{
+    background-image:url("./src/img/background__banda.png");
     background-attachment: fixed;
   }
 }
@@ -64,9 +70,17 @@ $color__crew:(
   width: 75px;
   height: 75px;
   margin-top: 10px;
-
 }
 
+.img__size{
+  width: $image_size;
+  height: $image_size;
+}
+
+.fondo-negro{
+  background-color:$negro-fondo;
+  margin: 20px;
+}
 
 
 

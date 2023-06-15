@@ -35,6 +35,10 @@
   background-image: url("./src/img/background__music.jpg");
   background-attachment: fixed;
 }
+.bg__banda {
+  background-image: url("./src/img/background__banda.png");
+  background-attachment: fixed;
+}
 
 .nav-link {
   text-decoration: none;
@@ -65,4 +69,14 @@
   width: 75px;
   height: 75px;
   margin-top: 10px;
+}
+
+.img__size {
+  width: 320px;
+  height: 320px;
+}
+
+.fondo-negro {
+  background-color: rgba(0, 0, 0, 0.5019607843);
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */
