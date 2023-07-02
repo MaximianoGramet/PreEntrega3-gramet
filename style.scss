@@ -12,6 +12,7 @@ $color__crew:(
   hootsman:#932F6D,
   proletius:#8d5a12,
   zargothrax:#491111,
+  roboprince:#3112e01a,
  );
  @each $color__crew,$bg-color in $color__crew{
   .pj__#{$color__crew}{
@@ -117,6 +118,7 @@ h3{
 }
 .animacion__roboprince:hover{
   opacity: 1;
+  color: #ffe7c7;
 }
 
 @media screen and (max-width:375px) {
